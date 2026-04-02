@@ -6,23 +6,18 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "android": {
-        "jsEngine": "hermes"
-      }
+      "distribution": "internal"
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "jsEngine": "hermes"
+        "buildType": "apk"
       }
     },
     "production": {
       "autoIncrement": true,
       "android": {
-        "buildType": "app-bundle",
-        "jsEngine": "hermes"
+        "buildType": "app-bundle"
       }
     }
   },
