@@ -14,12 +14,14 @@
     "preview": {
       "distribution": "internal",
       "android": {
+        "buildType": "apk",
         "jsEngine": "hermes"
       }
     },
     "production": {
       "autoIncrement": true,
       "android": {
+        "buildType": "app-bundle",
         "jsEngine": "hermes"
       }
     }
