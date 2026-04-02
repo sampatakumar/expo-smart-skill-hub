@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "smart-skill-hub",
+    "name": "smart skill hub",
     "slug": "smart-skill-hub",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -43,6 +43,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c8305945-9751-4f63-9595-9c3ee0a7d049"
+      }
     }
   }
 }
