@@ -21,7 +21,8 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "jsEngine": "hermes"
+      "jsEngine": "hermes",
+      "package": "com.sampatakumar.smartskillhub"
     },
     "web": {
       "output": "static",

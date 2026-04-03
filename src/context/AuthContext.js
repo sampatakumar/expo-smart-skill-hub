@@ -23,6 +23,12 @@ export const AuthProvider = ({ children }) => {
     await signOut(auth);
   };
 
+  // 🔐 Login
+  const login = async (email, password) => {
+    await signInWithEmailAndPassword(auth, email, password);
+  };
+  
+
   return (
     <AuthContext.Provider value={{ user, loading, logout }}>
       {children}
